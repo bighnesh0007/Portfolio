@@ -1,0 +1,27 @@
+@media print {
+    .print-friendly {
+      background-color: white !important;
+      color: black !important;
+    }
+  
+    .print-friendly * {
+      color: black !important;
+      background-color: white !important;
+    }
+  
+    .print-friendly button,
+    .print-friendly .no-print {
+      display: none !important;
+    }
+  
+    .print-friendly a {
+      text-decoration: none !important;
+      color: black !important;
+    }
+  
+    .print-friendly .page-break {
+      page-break-before: always;
+    }
+  }
+  
+  
