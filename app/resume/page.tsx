@@ -182,6 +182,7 @@ function Section({
   colorScheme: { primary: string; secondary: string; accent: string }
   headingColor: string
 }) {
+  console.log(colorScheme);
   return (
     <section className="mb-6">
       <h2 className={cn("text-2xl font-semibold mb-2", `text-${headingColor}-600 dark:text-${headingColor}-400`)}>
